@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-sec{
+    background-color: #f6f9fc;
+    padding: 60px 0px;
+    position: relative;
+}
+.head-div h5{
+    color: #638bf1;
+}
+.head-div h2{
+    margin-bottom: 30px;
+}
+.header-sec::after{
+    content: "";
+    position: absolute;
+    width: 59px;
+    height: 2px;
+    top: 138px;
+    left: 722px;
+    background-color: #2152e9;
+}
+.items-tab{
+    width: 350px;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 2px 3px 7px 2px #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+.items-tab h4{
+  
+}
+.items-tab h1 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 70px;
+    margin-top: 18px;
+    margin-top: 20px;
+}
+.items-tab p{
+    margin-top: 10px;
+}
+.items-tab ul{
+    list-style: none;
+}
+.items-tab li {
+    line-height: 2.28rem;
+}
+
+.prising-btn a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #2152e9;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+}
+.prising-btn a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 30px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #2152e9;
+    z-index: -1;
+  
+}
+/* hover */
+.prising-btn a:hover::before{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+.prising-btn a:hover {
+    color: white !important;
+}
+.items-tab:hover {
+    background-color:#2152e9 ;
+    color: white;
+    transition: .5s;
+}
+
+.items-tab:hover h1{
+    color: white;
+    transition: 2s;
+}
+.items-tab:hover h4{
+    color: white;
+    transition: 2s;
+}
+.items-tab:hover .prising-btn a{
+  background-color: white;
+  color: #2152e9;
+}
+/* back image sec */
+.back-img{
+    background: url(./img/free-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 250px;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.back-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 83, 233, 0.589);
+    z-index: -1;
+}
+.back-img h1{
+    margin-bottom: 40px;
+}
+.back-img h6 {
+    margin-bottom: 18px;
+}
+.back-img p{}
+.bg-btn {
+    margin-top: 30px;
+}
+.back-img h1::after {
+    content: "";
+    position: absolute;
+    width: 59px;
+    height: 2px;
+    top: 399px;
+    left: 717px;
+    background-color: white;
+}
+.bg-btn a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 30px;
+    color: #2152e9;
+    position: relative;
+    z-index: 1;
+}
+.bg-btn a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2152e9;
+    border-radius: 30px;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+.bg-btn a:hover:after{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    transition: .5s;
+}
+.bg-btn a:hover{
+    color: white;
+}
+/* contact section */
+.bg-color{
+    background-color:#f6f9fc ;
+    padding: 50px 0px;
+}
+.row-2{
+    background-color: #2152e9;
+    padding: 45px;
+    border-radius: 5px;
+}
+.contact-title {
+    color: white;
+}
+.contact-title h3 {
+    margin-bottom: 27px;
+}
+.contact-title p {
+    margin-bottom: 38px;
+}
+.contact-em {
+    width: 428px;
+    border-radius: 30px;
+    padding: 7px;
+    border: 1px solid #ddd;
+}
+.sub-btn a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 20px;
+    font-size: 20px;
+    background-color: #2152e9;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+}
+.contact-innar{
+    background-color: white;
+    box-shadow: 2px 3px 7px 2px #ddd;
+    padding: 30px;
+}
+.sup-btn a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 20px;
+    font-size: 20px;
+    background-color: #2152e9;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    margin-top: 70px;
+}
